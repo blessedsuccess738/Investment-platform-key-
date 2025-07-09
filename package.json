@@ -1,0 +1,30 @@
+🔧 PART 1: Full React User Platform – Initial Setup (React + Tailwind + Routing)
+📁 Create this inside your user-platform/ folder.
+
+
+---
+
+📄 package.json
+
+{
+  "name": "user-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.23",
+    "vite": "^5.0.0"
+  }
+}
