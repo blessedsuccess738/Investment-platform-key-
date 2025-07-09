@@ -1,11 +1,15 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import { BrowserRouter } from 'react-router-dom';
-import App from './App';
-import './index.css';
+import { useNavigate } from "react-router-dom";
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>
-);
+const Login = () => {
+  const navigate = useNavigate();
+
+  const handleLogin = async () => {
+    // ...your login logic here
+    // on success:
+    navigate("/dashboard");
+  };
+
+  return (
+    // ...your login form JSX here
+  );
+};
